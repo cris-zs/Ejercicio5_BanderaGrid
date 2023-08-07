@@ -1,0 +1,84 @@
+.container{
+    display: grid;
+    height: 400px;
+    width: 600px;
+    grid-template-rows: 40% 5% 10% 5% 40%;
+    grid-template-columns: 25% 5% 10% 5% 1fr;
+    border: 1px solid yellow;
+}
+.rojo-superior-izquierdo{
+    background-color: #EF2B2D;
+    height: 100%;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.blanco-superior-izquierdo{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.azul-superior{
+    background-color: #002868;
+    height: 100%;
+    width: 100%;
+    grid-column-start: 3;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.blanco-superior-derecho{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    grid-column-start: 4;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: 6;
+
+
+}
+.rojo-superior-derecho{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    grid-column-start: 5;
+    grid-column-end: span 1;
+}
+
+.azul-medio{
+    background-color: #002868;
+    height: 100%;
+    width: 100%;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+.blanco-medio{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.blanco-medio-inf{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    grid-row-start: 4;
+    grid-row-end: span 1;
+    grid-column-start: 1;
+    grid-column-end: 6 ;
+
+}
